@@ -1,0 +1,14 @@
+
+
+.div1{
+    width: 655px;
+    height: 960px;
+    background-color: brown;
+    display: inline-block;
+}
+.div2{
+    width: 655px;
+    height: 960px;
+    background-color: blue;
+    display: inline-block;
+}

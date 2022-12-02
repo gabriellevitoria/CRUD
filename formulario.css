@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#title{
+    font-family: 'Nunito', sans-serif;
+    color: #044C5B;
+    margin-left: 5%;
+}
+#title2{
+    font-family: 'Nunito', sans-serif;
+    color: #044C5B;
+    margin-left: 15%;
+}
+
+
+fieldset{
+    border:0;
+
+}
+body{
+    background-color: #ffff;
+    font-family:'Poppins' sans-serif;
+    font-size: 1em;
+    color: #2d2d2d;
+    /*margin-left: 36%;
+    margin-top: 2%;
+    justify-content: flex-end;*/
+}
+
+input, select, textarea, button{
+    border: 1px solid #959393;
+    border-radius: 5px;
+  
+}
+
+.camp{
+    margin-left: 10%;
+    margin-bottom: 1em;
+
+}
+
+.camp label{
+    margin-top: 0.2em;
+    color: #2d2d2d;
+    display: block;
+}
+
+fieldset.group.camp{
+
+    float: left;
+    margin-right: 1em;
+}
+
+.petImage{
+    margin-top: 45px;
+    width: 200px;
+    height: 130px;
+    margin-left: 18%;
+    justify-content: flex-end ;
+
+}
+
+input{
+    font-family: 'Poppins' sans-serif;
+    font-size: medium;
+    height: 33px;
+    width: 300px;
+    justify-content: flex-end;
+}
+
+.buttom{
+    margin-left: 10%;
+    height: 40px;
+    width: 300px;
+    background-color: #347483;
+    color: #ffff;
+    font-family: 'Poppins' sans-serif;
+    font-size:large;
+    
+}
+
+button:hover{
+    background-color: #044C5B;
+}
+
+.nome{
+    font-family:Arial, Helvetica, sans-serifs;
+}
+
+.check-in{
+    font-family: 'Poppins' sans-serif;
+    font-weight: lighter;
+    color: #959393;
+}
+
+.esquerda{
+    
+    float: left;
+    background-color:#02677e;
+    width: 735px;
+    height: 746px;
+    
+}
+
+.direita{
+    
+    float: right;
+    margin-top: 5px;
+    background-color: #ffff;
+    width: 560px;
+    height: 746px;
+   
+}
+
+input[type="date"]{
+
+    font-family: "Popping" sans-serif;
+    font-size: 20px;
+    background-color: #ffff;
+    color: #474646;
+    font-size:medium ;
+}
+
+.arte{
+    justify-content: center;
+    margin-left: 5%;
+    width: 90%;
+    height: 90%;
+}

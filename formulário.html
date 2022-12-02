@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" type= "text/css" href="formulario.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@300&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <div class="esquerda" id="div">
+    <img class="arte" src="assets/undraw_dog_walking_re_l61p(1).svg">
+    </div>
+    <div class="direita" id="div">
+
+        <div>
+            <img class="petImage" src="assets/undraw_welcome_cats_thqn.svg" alt="imagem de animais">
+            <br>
+            <h1 id="title">Preencha as informações<br></h1>
+            <h1 id="title2"> sobre o seu pet!</h1>
+            <br>
+        </div>
+    
+        <form>
+            <fieldset class="group">
+                <div class="camp">
+                    <input type="text" name="nome" id="nome" placeholder=" Nome Completo " required>
+                </div>
+    
+                <div class="camp">
+                    <input type="text" name="raça" id="raça" placeholder=" Raça " required>
+    
+                </div>
+    
+                <div class="camp">
+                    <input placeholder=" Check-In" type="text" onfocus="(this.type = 'date')"  id="Check-In" required>
+      
+                </div>
+    
+                <div class="camp">
+                    <input placeholder=" Check-Out " type="text" onfocus ="(this.type ='date')" id="check-out" required>
+                    <br>
+                </div>
+            </fieldset>
+    
+            <button class="buttom" type="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+
+</html>
